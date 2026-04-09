@@ -10,7 +10,7 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actioncheckout@v4
+        uses: actions/checkout@v4
 
       - name: Run a test command
         run: echo "Hello CI"
